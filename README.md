@@ -41,12 +41,7 @@ To work with the MyToken contract, you can follow these steps:
 - `mint(address _address, uint _value)`: Mint new tokens and increase the balance of an address.
 - `burn(address _address, uint _value)`: Burn tokens and decrease the balance of an address, with validation to ensure the address has sufficient tokens.
 
-## Examples
+## License
+This smart contract is licensed under the MIT License.
 
-Here are some examples of how to use the contract functions:
 
-**Minting Tokens:**
-
-```javascript
-// Mint 100 tokens to an address
-myToken.mint("0xAddressHere", 100);
